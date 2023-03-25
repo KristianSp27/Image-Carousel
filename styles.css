@@ -12,6 +12,12 @@ body {
     position: relative;
 }
 
+.carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .slide {
     position: absolute;
     inset: 0;
@@ -38,4 +44,9 @@ body {
     font-size: 4rem;
     top: 50%;
     transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0 .1);
 }
