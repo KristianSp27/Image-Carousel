@@ -57,3 +57,14 @@ color: white;
 background-color: rgba(0, 0, 0, .2);
 }
 
+.carousel-button:focus {
+    outline: 1px solid black;
+}
+
+.carousel-button.prev {
+    left: 1rem;
+}
+
+.carousel-button.next {
+    right: 1rem;
+}
