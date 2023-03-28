@@ -7,5 +7,7 @@ buttons.forEach((button) => {
 
     const activeSlide = slides.querySelector("[data-active]");
     let newIndex = [...slides.children].indexOf(activeSlide) + offset;
+
+    if (newIndex < 0) newIndex = slides.children.length - 1;
   });
 });
